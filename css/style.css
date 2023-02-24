@@ -1,8 +1,90 @@
+@font-face{
+    font-family: 'Archivo Medium';
+    src: url(/assets/fonts/Archivo-Medium.ttf);
+}
+/* Formatação "universal" */
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
-    font-size: 10px;
+    font-family: 'Archivo Medium';
 }
+
+/* Formatando a nav-list*/
+
+a{
+    color: #fff;
+    display: inline-block;
+    transition: background 4s;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #2e1414;
+    height: 10vh;
+}
+
+.navbar{
+    display: flex;
+}
+
+.navbar li{
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+
+.img_titulo{
+    background: url(../assets/images/home.png) no-repeat center center;
+    background-size: cover;
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+hr{
+    border: solid 1px #fff;
+    transform: scaleX(0);
+    opacity: 0;
+}
+
+li hr{
+    transition: all 0.5s;
+}
+
+li:hover hr{
+    transform: scaleX(1);
+    opacity: 1;
+
+}
+
+/* Logo */
+.logo{
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+/* Barra de rolagem */
+body::-webkit-scrollbar{
+    width: 8px;
+}
+
+body::-webkit-scrollbar-track{
+    background-color: #2e1414;
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: #fff;
+    border-radius: 12px;
+}
+
+
+
