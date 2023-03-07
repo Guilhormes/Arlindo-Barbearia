@@ -7,23 +7,20 @@ header{
 
 /* Formatando a nav-list*/
 
-a{
-    color: #fff;
-    display: inline-block;
-    transition: background 4s;
-}
+
 
 
 nav{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     background-color: #2e1414;
     height: 10vh;
+    text-transform: uppercase;
 }
 
 .nav-ul{
-    gap: 32px;                
+    gap: 40px;                
     list-style: none;
     display: flex;
 }
@@ -52,10 +49,15 @@ nav{
   .nav-ul li:hover::after {
     transform: scaleX(1);
     transform-origin: bottom left;
-  }
+  } 
+
+  a{
+    color: #fff;
+}
 
 /* Logo */
-.logo {
+
+/* .logo {
     gap: 10px;
     align-items: center;
     display: flex;
@@ -73,4 +75,4 @@ nav{
 .logoimg{
     width: 150px;
 
-}
+} */
