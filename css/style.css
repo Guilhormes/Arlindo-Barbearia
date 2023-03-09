@@ -10,6 +10,8 @@
     text-decoration: none;
     list-style: none;
     font-family: 'Archivo Medium';
+    color: #fff;
+    
 }
 
 
@@ -27,5 +29,19 @@ body::-webkit-scrollbar-thumb{
     border-radius: 12px;
 }
 
+h1::selection{
+    background-color: #331e1e;
+}
 
+p::selection{
+    background-color: #331e1e;
+}
+
+a::selection{
+    background-color: #331e1e;
+}
+
+img::selection{
+    background-color: #331e1e;
+}
 

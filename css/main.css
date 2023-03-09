@@ -1,7 +1,16 @@
-/*-------- Formatação da section sobre nós ----------*/
+/*-------- Formatação da section about ----------*/
 
 .about{
     height: 100vh;
     background-color: #2e1414;
     padding: 100px 100px;
+}
+
+.imgabout{
+    border: solid 2px #fff;
+    padding: 5px;
+}
+
+.abouttitle{
+    text-transform: uppercase;
 }
