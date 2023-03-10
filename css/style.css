@@ -15,6 +15,8 @@
 }
 
 
+
+
 /* Barra de rolagem */
 body::-webkit-scrollbar{
     width: 8px;
@@ -30,18 +32,22 @@ body::-webkit-scrollbar-thumb{
 }
 
 h1::selection{
-    background-color: #331e1e;
+    background-color: #090101;
+}
+
+h2::selection{
+    background-color: #090101;
 }
 
 p::selection{
-    background-color: #331e1e;
+    background-color: #090101;
 }
 
 a::selection{
-    background-color: #331e1e;
+    background-color: #090101;
 }
 
 img::selection{
-    background-color: #331e1e;
+    background-color: #090101;
 }
 

@@ -1,16 +1,43 @@
 /*-------- Formatação da section about ----------*/
 
-.about{
+.about-section{
     height: 100vh;
     background-color: #2e1414;
     padding: 100px 100px;
+    display: flex;
+
+}
+
+.about{
+    flex-direction: row;
+    display: flex;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
 }
 
 .imgabout{
     border: solid 2px #fff;
     padding: 5px;
+    
+
+}
+
+.abouttext{
+    text-transform: uppercase;
+    width: 90%;
+    align-items: center;
+    padding: 50px;
+    animation: text-appear .7s forwards;
 }
 
 .abouttitle{
-    text-transform: uppercase;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 50px;
+    animation: text-appear .7s forwards;
 }
+
+
