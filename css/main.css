@@ -40,4 +40,11 @@
     animation: text-appear .7s forwards;
 }
 
+/*-------- Formatação da section service ----------*/
 
+.service-section{
+    height: 100vh;
+    background-color: #fff;
+    padding: 100px 100px;
+    display: flex;
+}
