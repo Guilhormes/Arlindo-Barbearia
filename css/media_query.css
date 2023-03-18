@@ -32,9 +32,16 @@
     }
 
     .imgabout{
+        height: 300px;
         width: 100%;
         border: solid 2px #fff;
         padding: 5px;
+    }
+
+    .about-section{
+        text-align: center;
+        flex-direction: column-reverse;
+        height: 130vh;
     }
 
 }
