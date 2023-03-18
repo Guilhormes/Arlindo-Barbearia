@@ -1,8 +1,5 @@
 @media (max-width: 999px){
 
-    body{
-        overflow: hidden;
-    }
 
     .nav-ul{
         position: fixed;
@@ -42,6 +39,14 @@
         text-align: center;
         flex-direction: column-reverse;
         height: 130vh;
+    }
+
+    .service-section{
+        flex-direction: column;
+    }
+
+    .grid-img{
+        grid-template-columns: 1fr;
     }
 
 }

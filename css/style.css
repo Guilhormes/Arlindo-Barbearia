@@ -32,22 +32,22 @@ body::-webkit-scrollbar-thumb{
 }
 
 h1::selection{
-    background-color: #090101;
+    background-color: #362727;
 }
 
 h2::selection{
-    background-color: #090101;
+    background-color: #362727;
 }
 
 p::selection{
-    background-color: #090101;
+    background-color: #362727;
 }
 
 a::selection{
-    background-color: #090101;
+    background-color: #362727;
 }
 
 img::selection{
-    background-color: #090101;
+    background-color: #362727;
 }
 

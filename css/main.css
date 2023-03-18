@@ -1,22 +1,12 @@
 /*-------- Formatação da section about ----------*/
 
 .about-section{
-    height: 100vh;
     background-color: #2e1414;
     padding: 100px 100px;
     display: flex;
 
 }
 
-.about{
-    flex-direction: row;
-    display: flex;
-}
-
-.container{
-    display: flex;
-    flex-direction: row;
-}
 
 .imgabout{
     border: solid 2px #fff;
@@ -38,14 +28,45 @@
     margin-bottom: 20px;
     text-align: center;
     font-size: 50px;
-    animation: text-appear .7s forwards;
 }
 
 /*-------- Formatação da section service ----------*/
 
 .service-section{
-    height: 100vh;
     background-color: #fff;
     padding: 100px 100px;
     display: flex;
+}
+
+.servicetext{
+    animation: text-appear .7s forwards;
+}
+
+.servicetitle{
+    color: black;
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+}
+
+.serviceP{
+    color: black;
+}
+
+
+.grid-img figure img{
+    width: 100%;
+    height: 100%
+}
+
+/* .grid-img figure{
+    height: 200px;
+} */
+
+.grid-img{
+    border: solid 2px black;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+    padding: 20px;
 }
