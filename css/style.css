@@ -15,8 +15,6 @@
 }
 
 
-
-
 /* Barra de rolagem */
 body::-webkit-scrollbar{
     width: 8px;
@@ -49,5 +47,13 @@ a::selection{
 
 img::selection{
     background-color: #362727;
+}
+
+.servicetitle::selection{
+    color: #fff;
+}
+
+.serviceP::selection{
+    color: #fff;
 }
 
