@@ -1,0 +1,68 @@
+.header-unit{
+    background: url(/assets/images/foto_barbearia2.png) no-repeat center center;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+
+.title-service{
+    margin-top: 13em;
+    text-align: center;
+}
+
+/*-------- Formatação a section do unit ----------*/
+
+.unidade-section{
+    background: #2e1414;
+    width: 100%;
+    padding: 100px 100px;
+    }
+    
+    .div-unidade{
+        width: 100%;
+        background: #fff;
+        display: flex;
+        padding: 5px;
+        gap: 11px;
+    }
+    
+    .div-unidade figure{
+        width: 100%;
+    }
+    
+    .img-unidade{
+        width: 100%;
+    
+    }
+    
+    .unidade-texto{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .unidade-texto h2{
+        color: black;
+    }
+    .unidade-texto p{
+        color: black;
+        font-size: 20px;
+    }
+    
+    .btn-map{
+        background: transparent;
+        border: solid 2px #2e1414;
+        border-radius: 25px;
+        width: 50%;
+        height: 50px;
+        font-size: 25px;
+        cursor: pointer;
+        background-color: #2e1414;
+        align-self: center;
+    }
+    
+    .btn-map:hover{
+        transform: scale(1.1);
+        transition: all 0.5s;
+    }
+    
