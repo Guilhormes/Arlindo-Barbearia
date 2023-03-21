@@ -43,12 +43,30 @@
 
     .service-section{
         flex-direction: column;
+        text-align: center;
+        padding: 100px 25px 25px 25px;
+    }
+    .servicetext{
+        margin-bottom: 20px;
     }
 
     .grid-img{
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
     }
 
+    .grid-img figure img{
+        width: 100px;
+        height: 100px;
+    }
+
+    /* .section-service{
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .container{
+        flex-direction: column;
+    } */
 
 }
 
