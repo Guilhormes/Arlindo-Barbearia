@@ -12,7 +12,7 @@
 .wrapper{
     position: relative;
     width: 400px;
-    height: 400px;
+    height: 600px;
     background: transparent;
     border: solid 2px #fff;
     border-radius: 20px;
@@ -86,17 +86,39 @@
 }
 
 .check-box{
-    display: flex;
+    flex-direction: row;
     justify-content: center;
-    margin: 5px;
+    align-items: center;
+    margin: 20px;
     gap: 10px;
 }
 
-input [type="radio"]{
+.check-box input{
     width: 20px;
-    justify-content: space-between;
 }
 
 p{
     text-align: center;
 }
+
+.form-button{
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.btn{
+    background: transparent;
+    border: solid 2px #fff;
+    border-radius: 25px;
+    width: 75%;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+}
+

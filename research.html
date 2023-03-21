@@ -19,22 +19,36 @@
              <form action="#">
                 <div class="input-box">
                     <span class="icon"><ion-icon name="person-outline"></ion-icon></span>
-                    <input type="text" required>
+                    <input type="text" name="nome" id="nome" required>
                     <label>Nome</label>   
                 </div>
                 <div class="input-box">
                     <span class="icon"><ion-icon name="mail-outline"></ion-icon></span>
-                    <input type="email" required>
+                    <input type="email" name="email" id="email" required>
                     <label>Email</label>   
                 </div>
-                <p>O que acho de nosso atendimento</p>
                 <div class="check-box">
-                    <input type="radio" required> 
+                <p>O que acho de nosso atendimento?</p>
+                    <input type="checkbox" required> 
                     <label>Ótimo</label>
-                    <input type="radio" required> 
+                    <input type="checkbox" required> 
                     <label>Médio</label>
-                    <input type="radio" required> 
+                    <input type="checkbox" required> 
                     <label>Ruim</label>
+                </div>
+                <div class="check-box">
+                <p>O que acho de nosso ambiente?</p>
+                    <input type="checkbox" required> 
+                    <label>Ótimo</label>
+                    <input type="checkbox" required> 
+                    <label>Médio</label>
+                    <input type="checkbox" required> 
+                    <label>Ruim</label>
+                </div>
+                <div class="form-button">
+                    <center><a href="message.html">
+                        <button class="btn">Enviar</button>
+                    </a></center>
                 </div>
              </form>
         </div>
