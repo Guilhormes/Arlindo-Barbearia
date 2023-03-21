@@ -43,7 +43,7 @@
 
 .input-box label{
     position: absolute;
-    top: 50px;
+    top: 23px;
     left: 5px;
     transform: translateY(-50%);
     font-size: 1em;
@@ -55,7 +55,7 @@
 
 .input-box input:focus~label,
 .input-box input:valid~label{
-    top: -5px;
+    top: -11px;
 }
 
 .input-box input{
@@ -74,7 +74,7 @@
     position: absolute;
     right: 8px;
     font-size: 1.2em;
-    color: grey;
+    color: #fff;
     line-height: 57px;
 }
 
@@ -85,3 +85,18 @@
     line-height: 57px;
 }
 
+.check-box{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    gap: 10px;
+}
+
+input [type="radio"]{
+    width: 20px;
+    justify-content: space-between;
+}
+
+p{
+    text-align: center;
+}
