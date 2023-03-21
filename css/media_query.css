@@ -59,14 +59,16 @@
         height: 100px;
     }
 
-    /* .section-service{
+    .section-service{
         align-items: center;
         justify-content: space-around;
     }
 
     .container{
         flex-direction: column;
-    } */
+        gap: 50px;
+    } 
+
 
 }
 
