@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arlindo Barbearia</title>
+  <link rel="stylesheet" href="css/app-css/app.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/media_query.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animation.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="icon" href="assets/images/logo.png">
+</head>
+<body>
+  <header class="header-aplicativo">
+    <nav>
+        <div class="mobile-menu" id="mobile-menu">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+        <ul class="nav-ul">
+            <li>
+                <a href="index.html">Início</a>
+            </li>
+            <li>
+                <a href="service.html">Serviços</a>
+            </li>
+            <li>
+                <a href="unit.html">Unidades</a>
+            </li>
+            <li>
+                <a href="app.html">Aplicativo</a>
+            </li>
+            <li>
+                <a href="contato.html">Contato</a>
+            </li>
+        </ul>
+    </nav>
+    <section>
+        <div class="title-aplicativo">
+            <h1 class="title-h1">Aplicativo</h1>
+        </div>
+    </section>
+</header>
+<main>
+  <section class="section-aplicativo">
+    <div class="container-aplicativo">
+      <h1>
+        Nosso Aplicativo
+      </h1>
+      <div class="content-aplicativo">
+        <figure class="imagem-celular">
+          <img src="/assets/images/pngtree-android-smartphone-mockup-black-border-mobile-frame-design-png-image_6051104.png">
+        </figure>
+        <div class="texto-aplicativo">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo, sequi, inventore velit iusto ipsa vero nesciunt assumenda minima cumque nulla iste libero id? Eaque optio eveniet ratione inventore quam aperiam?
+          </p>
+          <div class="imagens-aplicativo">
+            <figure>
+              <img src="/assets/images/btn-app-store.png">
+            </figure>
+            <figure>
+              <img src="/assets/images/btn-g-play.png">
+            </figure>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer>
+    <div>
+        <figure>
+            <img src="assets/images/logo_codingteam.png" alt="logo da empresa coding team">
+        </figure>
+        <p>Coding</p>
+        <p>Team</p>
+    </div>
+    <div>
+        <p>@copyright by Fernando</p>
+    </div>
+  </footer>
+
+<script src="js/mobile-navbar.js"></script>
+<script src="js/validate-form.js"></script>
+<script>
+  const toggle = document.getElementById('mobile-menu');
+  let show = true;
+  toggle.addEventListener("click", () => {
+    toggle.classList.toggle('active');
+    document.body.style.overflow = show ? "hidden" : "initial";
+    show = !show; 
+  })
+</script>
+</body>
+</html>

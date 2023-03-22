@@ -28,17 +28,21 @@
         transform: translateX(0);
     }
 
+    /*ALTERADO*/
     .imgabout{
-        height: 300px;
         width: 100%;
+        height: auto;
         border: solid 2px #fff;
         padding: 5px;
     }
 
+    /*ADICIONADO*/
+    .abouttext {
+        padding: 0;
+    }
     .about-section{
         text-align: center;
         flex-direction: column-reverse;
-        height: 130vh;
     }
 
     .service-section{
@@ -69,6 +73,24 @@
         gap: 50px;
     } 
 
+    .content-aplicativo {
+        flex-direction: column;
+    }
 
+    .btn-research{
+        width: 30%;
+    }
+
+    .div-unidade{
+        flex-direction: column;
+    }
+
+
+@media (max-width: 630px) {
+    .imagens-aplicativo {
+        flex-direction: column;
+        gap: 30px;
+    }
 }
 
+}

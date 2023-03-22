@@ -1,0 +1,79 @@
+.header-contato{
+background: url(/assets/images/foto_barbearia2.png)no-repeat center center;
+width: 100%;
+height: 100vh;
+background-size: cover;
+}
+
+.title-contato {
+    margin-top: 13em;
+    text-align: center;
+  }
+  
+  .section-contato {
+    background: #2e1414;
+    text-align: center;
+    padding: 40px 0px;
+  }
+  
+  .container-contato {
+    width: min(1200px, 90%);
+    margin: 0 auto;
+  }
+  
+  .content-contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
+  
+  .section-contato h1 {
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-weight: 400;
+  }
+  
+  .contato {
+    display: flex;
+    width: 300px;
+    gap: 20px;
+    align-items: center;
+  }
+  
+  .contato p {
+    font-size: 20px;
+    text-align: left;
+  }
+  
+  .contato figure {
+    width: 50px;
+    background: white;
+    border-radius: 50%;
+    padding: 10px;
+  }
+  
+  .contato figure img {
+    width: 100%;
+  }
+
+  .div-research{
+    margin-top: 30px;
+  }
+
+  .btn-research{
+    background: transparent;
+    border: solid 2px #ffffff;
+    border-radius: 25px;
+    width: 25%;
+    height: 50px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: #2e1414;
+    align-self: center;
+  }
+  
+  .btn-research:hover{
+      transform: scale(1.1);
+      transition: all 0.5s;
+  }
