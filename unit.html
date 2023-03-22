@@ -65,5 +65,16 @@
                 </div>
         </section>
     </main>
+
+    <script src="js/mobile-navbar.js"></script>
+    <script>
+        const toggle = document.getElementById('mobile-menu');
+        let show = true;
+        toggle.addEventListener("click", () => {
+          toggle.classList.toggle('active');
+          document.body.style.overflow = show ? "hidden" : "initial";
+          show = !show; 
+        })
+      </script>
 </body>
 </html>

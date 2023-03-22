@@ -16,7 +16,7 @@
     <div class="wrapper">
         <div class="form-box">
             <h2>O que achou de nós?</h2>
-             <form action="#">
+             <form method="post" name="form-research" id="form-research" action="#">
                 <div class="input-box">
                     <span class="icon"><ion-icon name="person-outline"></ion-icon></span>
                     <input type="text" name="nome" id="nome" required>
@@ -30,15 +30,15 @@
                 <p>O que acho de nosso atendimento</p>
                 <div class="check-box">
                     <div>
-                        <input type="checkbox" required> 
+                        <input type="checkbox"  id="otimo" onclick="marcaDesmarca(this)" required> 
                             <label>Ótimo</label>
                     </div>
                     <div>
-                        <input type="checkbox" required> 
+                        <input type="checkbox" id="medio" onclick="marcaDesmarca(this)" required> 
                             <label>Médio</label>
                     </div>
                     <div>
-                        <input type="checkbox" required> 
+                        <input type="checkbox" id="ruim" onclick="marcaDesmarca(this)" required> 
                             <label>Ruim</label>
                     </div>
                 </div>
@@ -46,26 +46,47 @@
                 <p>O que acho de nosso ambiente?</p>
                 <div class="check-box">
                     <div>
-                        <input type="checkbox" required> 
+                        <input type="checkbox"  id="otimo" onclick="marcaDesmarca(this)" required> 
                             <label>Ótimo</label>
                     </div>
                     <div>
-                        <input type="checkbox" required> 
+                        <input type="checkbox" id="medio" onclick="marcaDesmarca(this)" required> 
                             <label>Médio</label>
                     </div>
                     <div>
-                        <input type="checkbox" required> 
+                        <input type="checkbox" id="ruim" onclick="marcaDesmarca(this)" required> 
                             <label>Ruim</label>
                     </div>
                 </div>
+
+                <p>O que acho da limpeza?</p>
+                <div class="check-box">
+                    <div>
+                        <input type="checkbox" id="otimo" onclick="marcaDesmarca(this)" required> 
+                            <label>Ótimo</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="medio" onclick="marcaDesmarca(this)" required> 
+                            <label>Médio</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="ruim" onclick="marcaDesmarca(this)" required> 
+                            <label>Ruim</label>
+                    </div>
+                </div>
+
                 <div class="form-button">
-                    <a href="message.html">
-                        <button class="btn">Enviar</button>
-                    </a>
+                    <input class="btn" type="button" name="botao" value="Enviar" 
+		            onclick="validarDados()">
+                </div>
+                <div class="div-error" id="error" style="color:red">
                 </div>
              </form>
         </div>
     </div>
+
+
+    <script src="js/validate-form.js"></script>
 
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
