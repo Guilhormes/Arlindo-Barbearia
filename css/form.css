@@ -84,7 +84,7 @@
 
 .check-box{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-bottom: 20px;
 }
 
@@ -122,3 +122,15 @@ p{
     align-items: center;
     text-align: center;
 }
+
+.div-selector{
+    margin-bottom: 20px;
+    text-align: center;;
+}
+
+
+.option{
+    background: transparent;
+    color: black;
+}
+

@@ -21,9 +21,8 @@ function validarDados(){
 
 
 function marcaDesmarca(caller){
-    var otimo = document.getElementById('otimo');
-    var medio = document.getElementById('medio');
-    var ruim = document.getElementById('ruim');
+    var joinville = document.getElementById('joinville');
+    var outro = document.getElementById('outro');
         var checks = document.querySelectorAll('input[type="checkbox"]');    
     checks.forEach(c => c.checked = (c == caller) );
 }
