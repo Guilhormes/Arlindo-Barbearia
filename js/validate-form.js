@@ -1,6 +1,8 @@
 function validarDados(){
     var nome = document.getElementById('nome').value;
     var email = document.getElementById('email').value;
+    var texto = document.getElementById('texto').value;
+    var texto2 = document.getElementById('texto2').value;
     var div = document.getElementById('error');
     var error;
     if(nome.length<3){
@@ -9,6 +11,12 @@ function validarDados(){
     }else if(email.length<3){
         document.getElementById('email').focus();
         error = 'Email inválido';
+    }else if(texto.length<1){
+        document.getElementById('texto').focus();
+        error = 'Texto inválido';
+    }else if(texto2.length<1){
+        document.getElementById('texto2').focus();
+        error = 'Texto inválido';
     }else{
         error = '';
     }
